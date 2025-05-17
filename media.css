@@ -1,0 +1,526 @@
+
+/* Media Queries for Responsive Design */
+
+/* Large Screens (Desktops) */
+@media only screen and (max-width: 1200px) {
+  #nav h2 {
+    font-size: 24px;
+  }
+  
+  #nav h1 {
+    font-size: 36px;
+  }
+  
+  #over1 h1 {
+    font-size: 4vw;
+  }
+  
+  .elem-part2 h1 {
+    font-size: 2.8vw;
+  }
+}
+
+/* Medium Screens (Tablets) */
+@media only screen and (max-width: 992px) {
+  #nav {
+    height: 10vh;
+    /* flex-direction: column; */
+    padding: 10px 0;
+    /* background-color: ; */
+    display: flex;
+  }
+  
+  
+  #nav h1 {
+    /* background-color: red; */
+    width: fit-content;
+    border-right: none;
+    /* border-bottom: 2px solid #000; */
+    padding: 10px 10px;
+    font-size: 28px;
+    
+    
+  }
+  
+  #nav h1 {
+    font-size: 32px;
+  }
+  
+  #nav h2:nth-last-child(1), #nav h2:nth-last-child(2) {
+    width: 100%;
+  }
+  #content{
+    height: 95%;
+    /* background-color: blue; */
+  }
+  #center {
+    padding: 2vw;
+
+    /* background-color: yellow; */
+    height: fit-content;
+    height: 60%;
+  }
+  
+  #overlay {
+    height: 40%;
+    /* background-color: red; */
+  }
+  
+  #over1 h1 {
+    font-size: 5vw;
+  }
+  
+  #over1 h2 {
+    font-size: 2vw;
+    padding: 1.5vw;
+  }
+  
+  #over2 h4 {
+    font-size: 2vw;
+  }
+  
+  #over2 img {
+    height: 4vw;
+  }
+ #scroll {
+  /* background-color: red; */
+  height: 50%;
+  width: 130%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* background-color: red; */
+}
+#scroll img {
+  height: 100%;
+  border-radius: 50%;
+  width: 12vw;
+  object-fit: cover;
+  object-position: 30%, 30%;
+  margin: 1vw;
+}
+
+  #container {
+    /* margin-left: vw ; */
+    height: 100%;
+  width: 100%;
+  display: inline-block;
+  padding: 2vw;
+  /* margin-left: -2.7vw; */
+  animation-name: anime;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  }
+  #alphabet {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  #alphabet h5 {
+    font-size: 2.5vw;
+  }
+  
+  #alphabet h6 {
+    font-size: 1.8vw;
+    padding: 1vw 1.2vw;
+  }
+  
+  #page2 {
+    flex-direction: column;
+    padding: 2vw;
+  }
+  
+  #page2-part1{
+    width: 100%;
+    height : 47%;
+  } 
+  #page2-part2 {
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+  }
+  
+  #writing {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3vw;
+  }
+  
+  #writing h3 {
+    font-size: 3.5vw;
+  }
+  
+  #writing p {
+    font-size: 3vw;
+  }
+  .elem h4 {
+    font-size: 2.2vw;
+    width: 18%;
+    min-width: 60px;
+    max-width: 120px;
+  }
+
+  .elem img {
+    height: 60px;
+    width: 60px;
+    left: 10%;
+    transition: left 0.3s;
+  }
+
+  .elem:hover img {
+    left: 15%;
+  }
+
+  #page4 {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 0;
+    gap: 2vw;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #one, #two {
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    margin-bottom: 2vw;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+  }
+
+  #upper-half > h1 {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+  #blog {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+  }
+    margin-bottom: 1vw;
+  }
+
+  #blog {
+    flex-direction: column;
+    gap: 2vw;
+  }
+
+  #blog > h1 {
+    width: 100%;
+    margin-bottom: 2vw;
+    font-size: 4vw;
+    text-align: left;
+  }
+
+  #cover {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Small Screens (Mobile Phones) */
+@media only screen and (max-width: 768px) {
+  #nav {
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  #over1 h1 {
+    font-size: 7vw;
+  }
+  
+  #over1 h2 {
+    font-size: 3vw;
+    padding: 2vw;
+  }
+  
+  #over2 h4 {
+    font-size: 3vw;
+  }
+  
+  #over2 img {
+    height: 6vw;
+  }
+  
+  #scroll {
+    height: 25vh;
+  }
+  
+  #scroll img {
+    width: 25vw;
+  }
+  
+  #alphabet h5 {
+    font-size: 3.5vw;
+  }
+  
+  #alphabet h6 {
+    font-size: 2.5vw;
+    padding: 1.2vw 1.5vw;
+  }
+  
+  .elem {
+    height: 12vh;
+    padding: 0 1vw;
+  }
+  
+  .elem h4 {
+    font-size: 3vw;
+    width: 15%;
+  }
+  
+  .elem-part2 h1 {
+    font-size: 5vw;
+  }
+  
+  .elem-part2 h5 {
+    font-size: 2vw;
+  }
+  
+  .elem img {
+    height: 60px;
+    width: 60px;
+    left: 10%;
+  }
+  
+  .elem:hover img {
+    left: 15%;
+  }
+  
+  #upper-half > h1 {
+    font-size: 6vw;
+  }
+  
+  #upper-half > h3 {
+    font-size: 3vw;
+  }
+  
+  #lower-half {
+    flex-direction: column;
+  }
+  
+  #lower-half #L, #lower-half #R {
+    width: 100%;
+    height: 30vh;
+  }
+  
+  #marque h1 {
+    font-size: 6vw;
+  }
+  
+  #cover {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #first, #second {
+    width: 100%;
+  }
+  
+  #first img, #second img {
+    height: 40vh;
+  }
+
+  /* Good UI Footer Styles */
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+    background: #222;
+    color: #fff;
+    padding: 6vw 2vw 4vw 2vw;
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -2px 16px rgba(0,0,0,0.08);
+  }
+  .footer-left, .footer-center, .footer-right {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+  .footer-left h2 {
+    font-size: 5vw;
+    margin-bottom: 1vw;
+    letter-spacing: 1px;
+  }
+  .footer-left p {
+    font-size: 2.5vw;
+    color: #bbb;
+    margin-bottom: 2vw;
+  }
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2vw 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+  .footer-center ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5vw;
+    transition: color 0.2s;
+  }
+  .footer-center ul li a:hover {
+    color: #ffb347;
+  }
+  .footer-right h3 {
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    letter-spacing: 1px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 1vw;
+  }
+  .social-icons a {
+    font-size: 4vw;
+    color: #fff;
+    transition: color 0.2s, transform 0.2s;
+  }
+  .social-icons a:hover {
+    color: #ffb347;
+    transform: scale(1.2);
+  }
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color: #888;
+    margin-top: 2vw;
+    border-top: 1px solid #333;
+    padding-top: 2vw;
+  }
+}
+
+/* Extra Small Screens */
+@media only screen and (max-width: 480px) {
+  #nav h2{
+    display: none;
+  }#nav h1 {
+    font-size: 16px;
+  }
+  
+  #nav h1 {
+    font-size: 24px;
+  }
+  
+  #over1 h1 {
+    font-size: 8vw;
+  }
+  
+  #over1 h2 {
+    font-size: 4vw;
+    padding: 2.5vw;
+  }
+  
+  #over2 h4 {
+    font-size: 4vw;
+  }
+  
+  #over2 img {
+    height: 5vw;
+  }
+  #scroll {
+    height: 20vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-color: red; */
+  }
+  #container {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 2vw;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  #scroll img {
+    width: 50%;
+    margin: 1vw;
+  }
+  #page3 {
+    height: 56%;
+    width: 100%;
+    position: relative;
+    padding: 5vw 4vw;
+}
+    #upper-half > h1 {
+        display: flex
+;
+        font-size: 7vw;
+        justify-content: center;
+        align-items: center;
+    }
+  #page3 > h1 {
+    font-size: 6vw;
+  }
+      #upper-half > h3 {
+        font-size: 3vw;
+        font-weight: 600 !important;
+        display: flex;
+        justify-content: center;
+    }
+  #L > img{
+    display: none;
+  }
+  .elem {
+    height: 10vh;
+  }
+  
+  .elem h4 {
+    font-size: 3.5vw;
+    width: 20%;
+  }
+  
+  .elem-part2 h1 {
+    font-size: 6vw;
+  }
+  
+  .elem-part2 h5 {
+    font-size: 2.5vw;
+  }
+  
+  .elem img {
+    height: 40px;
+    width: 40px;
+    display: none;
+  }
+  
+  #upper-half > h1 {
+    font-size: 7vw;
+  }
+  
+  #upper-half > h3 {
+    font-size: 4vw;
+  }
+  
+  #marque h1 {
+    font-size: 7vw;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    gap: 4vw;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+}
