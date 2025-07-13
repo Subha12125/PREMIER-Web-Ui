@@ -7,7 +7,6 @@ Welcome to the official repository for **Premier**, a sleek and cinematic web ex
 - 🔥 Fullscreen video background with overlay content
 - 🖼️ Horizontal image scroll galleries
 - 🎬 Embedded fashion video stories
-- 📝 Blog posts section for news and stories
 - 📱 Fully responsive layout (mobile, tablet, desktop)
 - 📌 Sticky navigation and marquee branding
 - 🌐 Social media icons via Remix Icons
@@ -17,7 +16,6 @@ Welcome to the official repository for **Premier**, a sleek and cinematic web ex
 - HTML5
 - CSS3
 - Responsive Media Queries
-- JavaScript (optional future integration)
 - [Remix Icons](https://remixicon.com/)
 
 ## 🗂️ Folder Structure
