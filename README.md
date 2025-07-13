@@ -18,5 +18,4 @@ Welcome to the official repository for **Premier**, a sleek and cinematic web ex
 - Responsive Media Queries
 - [Remix Icons](https://remixicon.com/)
 
-## 🗂️ Folder Structure
 
